@@ -14,6 +14,7 @@
               :min="1"
               label="Cost"
               color="amber darken-4"
+              @change="setSliders"
               ticks
             ></v-slider>
           </v-flex>
@@ -25,6 +26,7 @@
                 :min="1"
                 label="Constructability"
                 color="amber darken-4"
+                @change="setSliders"
                 ticks
               ></v-slider>
             </v-flex>
@@ -35,6 +37,7 @@
                 :min="1"
                 label="Schedule Impact"
                 color="amber darken-4"
+                @change="setSliders"
                 ticks
               ></v-slider>
             </v-flex>
@@ -46,6 +49,7 @@
                 :label="discipline"
                 :value="discipline"
                 color="amber darken-4"
+                @change="setDisciplines"
                 hide-details
               ></v-checkbox>
             </v-flex>
@@ -61,8 +65,8 @@ export default {
   name: "FilterPanel",
   data: () => ({
     cost: 4,
-    constructability: 4,
     scheduleImpact: 4,
+    constructability: 4,
     selected: [
       "Architectural",
       "Structural",
@@ -79,7 +83,17 @@ export default {
       "Plumbing",
       "Fire"
     ]
-  })
+  }),
+  methods: {
+    setDisciplines() {
+      this.$store.commit("setDisciplines", this.selected);
+    },
+    setSliders() {
+      this.$store.commit("setCost", this.cost);
+      this.$store.commit("setConstructability", this.constructability);
+      this.$store.commit("setScheduleImpact", this.scheduleImpact);
+    }
+  }
 };
 </script>
 

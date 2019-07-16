@@ -2,6 +2,7 @@ import Vue from "vue";
 import "./plugins/vuetify";
 import App from "./App.vue";
 import VueRouter from "vue-router";
+import store from "./store";
 import AllClashes from "./components/AllClashes";
 import Clash from "./components/Clash";
 import "./stylus/main.styl";
@@ -17,6 +18,7 @@ const router = new VueRouter({
 });
 
 new Vue({
+  store,
   render: h => h(App),
   router
 }).$mount("#app");
