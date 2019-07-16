@@ -4,8 +4,16 @@
       <h5>PHASE: {{phase}}</h5>
       <h2>
         Solution {{solution.id}}
-        <v-btn v-if="!optionExists" @click="setOption(solution.id)" small icon>
+        <v-btn v-if="!selectedOption" @click="setOption(solution.id)" small icon>
           <v-icon color="#ed2349">star_border</v-icon>
+        </v-btn>
+        <v-btn
+          v-if="selectedOption===solution.id && optionExists"
+          @click="setOption(null)"
+          small
+          icon
+        >
+          <v-icon color="#ed2349">star</v-icon>
         </v-btn>
       </h2>
       <h4>{{solution.description}}</h4>
@@ -17,22 +25,42 @@
           <v-img :src="require('../assets/test/' + solution.image)" />
         </v-card>
       </v-dialog>
-      <v-flex pa-2>
-        <v-layout>
-          <v-flex xs4>
+      <v-container pa-2 align-center>
+        <v-layout class="score" style="align-items: flex-end">
+          <v-flex xs3 ml-2 mr-1>
+            <h1>{{cost}}</h1>
             <h3>Cost</h3>
-            <h3>Viability</h3>
-            <h3>Schedule Impact</h3>
-            <h3>Disciplines Involved</h3>
           </v-flex>
-          <v-flex class="data">
-            <h3>{{cost}}</h3>
-            <h3>{{solution.viability}}</h3>
-            <h3>{{solution.scheduleImpact}}</h3>
-            <h3>{{solution.disciplinesAffected.join(', ')}}</h3>
+          <v-flex xs3 ml-1 mr-1>
+            <v-progress-circular
+              :size="55"
+              :width="7"
+              :rotate="-90"
+              :value="shownViabilityScore"
+              color="#ed2349"
+            >
+              <h2>{{solution.viability}}</h2>
+            </v-progress-circular>
+            <h3>Viability</h3>
+          </v-flex>
+          <v-flex xs4 ml-1 mr-1>
+            <v-progress-circular
+              :size="55"
+              :width="7"
+              :rotate="-90"
+              :value="shownScheduleScore"
+              color="#ed2349"
+            >
+              <h2>{{scheduleImpact}}</h2>
+            </v-progress-circular>
+            <h3>Schedule Impact</h3>
+          </v-flex>
+          <v-flex xs4 ml-1 mr-1>
+            <span>{{solution.disciplinesAffected.join(', ')}}</span>
+            <h3>Disciplines</h3>
           </v-flex>
         </v-layout>
-      </v-flex>
+      </v-container>
     </v-layout>
   </v-card>
 </template>
@@ -43,8 +71,20 @@ export default {
   props: ["solution"],
   data: () => ({
     selectedOption: "",
-    dialog: false
+    dialog: false,
+    scheduleImpact: 0,
+    viability: 0
   }),
+  mounted() {
+    setInterval(() => {
+      while (this.scheduleImpact < this.shownScheduleScore) {
+        this.scheduleImpact += 1;
+      }
+      while (this.viability < this.shownViabilityScore) {
+        this.shownGreenScore += 1;
+      }
+    }, 20);
+  },
   methods: {
     setOption(id) {
       this.selectedOption = id;
@@ -53,6 +93,12 @@ export default {
     enlargeView(src) {}
   },
   computed: {
+    shownScheduleScore() {
+      return (this.solution.scheduleImpact / 4) * 100;
+    },
+    shownViabilityScore() {
+      return (this.solution.viability / 4) * 100;
+    },
     optionExists() {
       return this.$store.state.selectedOption;
     },
@@ -97,5 +143,9 @@ ul {
 }
 li {
   list-style: none;
+}
+.score h1 {
+  color: #ed2349;
+  font-size: 24pt;
 }
 </style>
