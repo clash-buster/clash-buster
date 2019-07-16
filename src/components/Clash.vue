@@ -6,28 +6,21 @@
       <v-flex>
         <h1>Possible Solutions</h1>
       </v-flex>
-      <v-flex xs4>
-        <v-select
-          :items="phases"
-          name="phases"
-          label="Filter by Phase"
-          prepend-icon="mdi-filter"
-          item-text="name"
-          item-value="key"
-          v-model="clashPhase"
-          @change="onChange"
-          dense
-        />
+      <v-flex xs8>
+        <FilterPanel />
       </v-flex>
     </v-layout>
-    <FilterPanel />
-    <v-layout column>
+
+    <v-layout row wrap>
       <v-flex
-        v-show="filteredSolutions"
+        v-show="shownSolutions"
         style="animation: resultsIn 0.5s"
-        v-for="(solution, index) in filteredSolutions"
+        v-for="(solution, index) in shownSolutions"
         :key="index"
         mb-3
+        pl-2
+        pr-2
+        xs6
       >
         <SolutionCard :solution="solution" />
       </v-flex>
@@ -45,22 +38,13 @@ export default {
   props: ["clash"],
   components: { SolutionCard, ClashCardDetail, FilterPanel },
   data: () => ({
-    clashPhase: "all",
-    phases: [
-      { name: "All", key: "all" },
-      { name: "Design Development", key: "dd" },
-      { name: "Construction Documentation", key: "cd" },
-      { name: "Construction Administration", key: "ca" },
-      { name: "Post Occupancy", key: "po" }
-    ]
+    sort: ""
   }),
   mounted() {},
-  methods: {
-    onChange(phase) {
-      this.clashPhase = phase;
-    }
-  },
   computed: {
+    clashPhase() {
+      return this.$store.state.filter;
+    },
     filteredSolutions() {
       let filtered = [];
       let solutions = this.clash.solutions;
@@ -78,23 +62,38 @@ export default {
           });
         }
       });
-
-      // let sortBy = this.sort || "cost";
-      // if (sortBy === "disciplinesAffected") {
-      //   solutions.sort((a, b) => a[sortBy].length < b[sortBy].length);
-      // } else {
-      //   solutions.sort((a, b) =>
-      //     a[sortBy] > b[sortBy] ? 1 : b[sortBy] > a[sortBy] ? -1 : 0
-      //   );
-      // }
-
       return filtered;
+    },
+    shownSolutions() {
+      let solutions = this.filteredSolutions;
+      let selectedDisciplines = this.$store.state.disciplinesInvolved;
+      let sortingVariables = [
+        { name: "cost", value: this.$store.state.cost },
+        { name: "viability", value: this.$store.state.viability },
+        { name: "scheduleImpact", value: this.$store.state.scheduleImpact }
+      ];
+
+      // Sorting first by low cost to high cost by default
+      solutions.sort((a, b) =>
+        a["cost"] > b["cost"] ? 1 : b["cost"] > a["cost"] ? -1 : 0
+      );
+
+      // Filtering based on cost, viability, and schedule impact
+      sortingVariables.forEach(variable => {
+        solutions = solutions.filter(solution => {
+          return solution[variable.name] <= variable.value;
+        });
+      });
+
+      // FUTURE TODO: Filtering based on disciplines involved
+      return solutions;
     }
   },
   methods: {
     onChange(sort) {
       this.sort = sort;
-    }
+    },
+    checkIfExists() {}
   }
 };
 </script>

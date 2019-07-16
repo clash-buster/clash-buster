@@ -1,9 +1,10 @@
 <template>
   <v-toolbar app dense>
-    <v-toolbar-title class="headline text-uppercase">
-      <span>
-        <a href="/">clash ></a>
-      </span>
+    <v-toolbar-side-icon>
+      <v-img :src="require('../assets/clash.png')" contain></v-img>
+    </v-toolbar-side-icon>
+    <v-toolbar-title class="title">
+      <a href="/">CLASH ></a>
     </v-toolbar-title>
     <v-spacer></v-spacer>
     <v-btn icon flat href target="_blank">
@@ -22,6 +23,10 @@ export default {
 <style>
 a {
   text-decoration: none;
-  color: black !important;
+  color: #ed2349 !important;
+  font-weight: 700;
+}
+.title {
+  color: #ed2349;
 }
 </style>
