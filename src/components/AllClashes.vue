@@ -1,5 +1,6 @@
 <template>
   <v-container align-content-center>
+    <!-- <ProjectDetail /> -->
     <v-layout>
       <v-flex>
         <h1>All Clashes</h1>
@@ -14,12 +15,13 @@
 </template>
 
 <script>
-import Clashes from "../assets/clashes.json";
+import Clashes from "../assets/clashesTest.json";
 import ClashCard from "./ClashCard";
+import ProjectDetail from "./ProjectDetail";
 
 export default {
   name: "AllClashes",
-  components: { ClashCard },
+  components: { ClashCard, ProjectDetail },
   data: () => ({
     project: { name: "Project DBEI", clashes: Clashes }
   }),
