@@ -51,7 +51,7 @@
               :value="shownScheduleScore"
               color="#ed2349"
             >
-              <h2>{{scheduleImpact}}</h2>
+              <h2>{{solution.scheduleImpact}}</h2>
             </v-progress-circular>
             <h3>Schedule Impact</h3>
           </v-flex>
@@ -81,7 +81,7 @@ export default {
         this.scheduleImpact += 1;
       }
       while (this.viability < this.shownViabilityScore) {
-        this.shownGreenScore += 1;
+        this.viability += 1;
       }
     }, 20);
   },
