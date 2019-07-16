@@ -1,7 +1,12 @@
 <template>
   <v-card>
     <v-card-title>Clash #{{clash.id}}: {{clash.type}}</v-card-title>
-    <v-img :src="require('../assets/' + clash.image)" @click="ViewClash()" />
+    <v-img
+      :src="require('../assets/' + clash.image)"
+      onmouseover
+      style="cursor: pointer"
+      @click="ViewClash()"
+    />
   </v-card>
 </template>
 

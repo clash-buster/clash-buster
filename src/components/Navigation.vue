@@ -1,11 +1,13 @@
 <template>
   <v-toolbar app dense>
     <v-toolbar-title class="headline text-uppercase">
-      <span>clash busters</span>
+      <span>
+        <a href="/">clash ></a>
+      </span>
     </v-toolbar-title>
     <v-spacer></v-spacer>
-    <v-btn flat href target="_blank">
-      <span class="mr-2">x</span>
+    <v-btn icon flat href target="_blank">
+      <v-icon>mdi-account-circle</v-icon>
     </v-btn>
   </v-toolbar>
 </template>
@@ -16,3 +18,10 @@ export default {
   data: () => ({})
 };
 </script>
+
+<style>
+a {
+  text-decoration: none;
+  color: black !important;
+}
+</style>

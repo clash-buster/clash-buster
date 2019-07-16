@@ -4,101 +4,69 @@
     "image": "clash-placeholder.png",
     "type": "Beam clash",
     "disciplinesAffected": ["Structural", "Mechanical"],
-    "projectPhase": "Design Development",
-    "solutions": [
-      {
-        "id": "A",
-        "image": "clash-placeholder.png",
-        "description": "Move beam 12 inches to left",
-        "cost": "$",
-        "constructability": "1",
-        "time": "time",
-        "disciplinesAffected": ["Structural"]
-      },
-      {
-        "id": "B",
-        "image": "clash-placeholder.png",
-        "description": "Move beam 12 inches lower",
-        "cost": "$$",
-        "constructability": "2",
-        "time": "time",
-        "disciplinesAffected": ["Structural"]
-      },
-      {
-        "id": "C",
-        "image": "clash-placeholder.png",
-        "description": "Move beam up 12 inches",
-        "cost": "$$$",
-        "constructability": "3",
-        "time": "time",
-        "disciplinesAffected": ["Structural"]
-      }
-    ]
-  },
-  {
-    "id": 1,
-    "image": "clash-placeholder.png",
-    "type": "Beam clash",
-    "disciplinesAffected": ["Structural", "Mechanical"],
-    "projectPhase": "Design Development",
-    "solutions": [
-      {
-        "id": "A",
-        "image": "clash-placeholder.png",
-        "description": "Move beam 12 inches to left",
-        "cost": "$",
-        "constructability": "1",
-        "time": "time"
-      },
-      {
-        "id": "B",
-        "image": "clash-placeholder.png",
-        "description": "Move beam 12 inches lower",
-        "cost": "$$",
-        "constructability": "2",
-        "time": "time"
-      },
-      {
-        "id": "C",
-        "image": "clash-placeholder.png",
-        "description": "Move beam up 12 inches",
-        "cost": "$$$",
-        "constructability": "3",
-        "time": "time"
-      }
-    ]
-  },
-  {
-    "id": 2,
-    "image": "clash-placeholder.png",
-    "type": "Beam clash",
-    "disciplinesAffected": ["Structural", "Mechanical"],
-    "projectPhase": "Design Development",
-    "solutions": [
-      {
-        "id": "A",
-        "image": "clash-placeholder.png",
-        "description": "Move beam 12 inches to left",
-        "cost": "$",
-        "constructability": "1",
-        "time": "time"
-      },
-      {
-        "id": "B",
-        "image": "clash-placeholder.png",
-        "description": "Move beam 12 inches lower",
-        "cost": "$$",
-        "constructability": "2",
-        "time": "time"
-      },
-      {
-        "id": "C",
-        "image": "clash-placeholder.png",
-        "description": "Move beam up 12 inches",
-        "cost": "$$$",
-        "constructability": "3",
-        "time": "time"
-      }
-    ]
+    "roomName": "Office",
+    "roomNumber": "550A",
+    "solutions": {
+      "dd": [
+        {
+          "id": "2342",
+          "image": "clash-placeholder.png",
+          "description": "Move beam 12 inches to left",
+          "cost": "2",
+          "constructability": "1",
+          "time": "time",
+          "disciplinesAffected": ["Structural, Mechanical"]
+        },
+        {
+          "id": "2342",
+          "image": "clash-placeholder.png",
+          "description": "Move beam 12 inches to left",
+          "cost": "2",
+          "constructability": "1",
+          "time": "time",
+          "disciplinesAffected": ["Structural, Mechanical, Electrical"]
+        }
+      ],
+      "cd": [
+        {
+          "id": "3442",
+          "image": "clash-placeholder.png",
+          "description": "Move beam 12 inches to left",
+          "cost": "3",
+          "constructability": "1",
+          "time": "time",
+          "disciplinesAffected": ["Structural, Mechanical"]
+        },
+        {
+          "id": "5242",
+          "image": "clash-placeholder.png",
+          "description": "Move beam 12 inches to left",
+          "cost": "4",
+          "constructability": "3",
+          "time": "time",
+          "disciplinesAffected": ["Structural, Mechanical, Electrical"]
+        }
+      ],
+      "ca": [
+        {
+          "id": "3442",
+          "image": "clash-placeholder.png",
+          "description": "Move beam 12 inches to left",
+          "cost": "4",
+          "constructability": "1",
+          "time": "time",
+          "disciplinesAffected": ["Structural, Mechanical"]
+        },
+        {
+          "id": "5242",
+          "image": "clash-placeholder.png",
+          "description": "Move beam 12 inches to left",
+          "cost": "4",
+          "constructability": "3",
+          "time": "time",
+          "disciplinesAffected": ["Structural, Mechanical, Electrical"]
+        }
+      ]
+    }
   }
 ]

@@ -4,6 +4,7 @@ import App from "./App.vue";
 import VueRouter from "vue-router";
 import AllClashes from "./components/AllClashes";
 import Clash from "./components/Clash";
+import "./stylus/main.styl";
 
 Vue.config.productionTip = false;
 Vue.use(VueRouter);

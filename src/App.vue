@@ -1,7 +1,6 @@
 <template>
   <div>
     <Navigation />
-
     <v-app class="application">
       <router-link to="/"></router-link>
       <router-link to="/clash"></router-link>
@@ -23,9 +22,11 @@ export default {
 </script>
 
 <style>
+.application--wrap {
+  min-height: calc(100vh - 50px) !important;
+}
 * {
   box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif;
 }
 body {
   margin: 0;
