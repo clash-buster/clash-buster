@@ -1,0 +1,619 @@
+[
+    {
+      "id": "Sewer_SSB_11",
+      "image": "Sewer_SSB_11.png",
+      "type": "Beam clash",
+      "disciplinesAffected": ["Architectural", "Structural", "Plumbing"],
+      "roomName": "Office",
+      "roomNumber": "550A",
+      "solutions": {
+        "dd": [
+          {
+            "id": "Sewer_dd_11_A",
+            "image": "Sewer_dd_11_A.png",
+            "description": "Pipe is routed through the beam",
+            "cost": "3",
+            "viability": "4",
+            "coordination impact": "1",
+            "scheduleImpact": "3",
+            "disciplinesAffected": ["Structural", "Plumbing"]
+          },
+          {
+            "id": "Sewer_dd_11_D",
+            "image": "Sewer_dd_11_D.png",
+            "description": "Drop the pipe using a 90 degree bend",
+            "cost": "1",
+            "viability": "2",
+            "coordination impact": "3",
+            "scheduleImpact": "2",
+            "disciplinesAffected": [
+              "Architectural",
+              "Structural",
+              "Mechanical",
+              "Plumbing",
+              "Electrical"
+            ]
+          },
+          {
+            "id": "Sewer_dd_11_E",
+            "image": "Sewer_dd_11_E.png",
+            "description": "Drop the pipe using a 45 degree bend",
+            "cost": "1",
+            "viability": "3",
+            "coordination impact": "3",
+            "scheduleImpact": "2",
+            "disciplinesAffected": [
+              "Architectural",
+              "Structural",
+              "Mechanical",
+              "Plumbing",
+              "Electrical"
+            ]
+          },
+          {
+            "id": "Sewer_dd_11_F",
+            "image": "Sewer_dd_11_F.png",
+            "description": "Drop the whole pipe below the beam",
+            "cost": "1",
+            "viability": "5",
+            "coordination impact": "4",
+            "scheduleImpact": "2",
+            "disciplinesAffected": [
+              "Architectural",
+              "Structural",
+              "Mechanical",
+              "Plumbing",
+              "Electrical"
+            ]
+          },
+          {
+            "id": "Sewer_dd_11_G",
+            "image": "Sewer_dd_11_G.png",
+            "description": "Through a part cut in the beam",
+            "cost": "4",
+            "viability": "2",
+            "coordination impact": "1",
+            "scheduleImpact": "4",
+            "disciplinesAffected": ["Structural", "Plumbing"]
+          }
+        ],
+        "cd": [
+          {
+            "id": "Sewer_cd_11_A",
+            "image": "Sewer_cd_11_A.png",
+            "description": "Pipe is routed through the beam",
+            "cost": "3",
+            "viability": "4",
+            "coordination impact": "1",
+            "scheduleImpact": "3",
+            "disciplinesAffected": ["Structural", "Plumbing"]
+          },
+          {
+            "id": "Sewer_cd_11_D",
+            "image": "Sewer_cd_11_D.png",
+            "description": "Drop the pipe using a 90 degree bend",
+            "cost": "1",
+            "viability": "2",
+            "coordination impact": "3",
+            "scheduleImpact": "2",
+            "disciplinesAffected": [
+              "Architectural",
+              "Structural",
+              "Mechanical",
+              "Plumbing",
+              "Electrical"
+            ]
+          },
+          {
+            "id": "Sewer_cd_11_E",
+            "image": "Sewer_cd_11_E.png",
+            "description": "Drop the pipe using a 45 degree bend",
+            "cost": "1",
+            "viability": "4",
+            "coordination impact": "3",
+            "scheduleImpact": "2",
+            "disciplinesAffected": [
+              "Architectural",
+              "Structural",
+              "Mechanical",
+              "Plumbing",
+              "Electrical"
+            ]
+          },
+          {
+            "id": "Sewer_cd_11_F",
+            "image": "Sewer_cd_11_F.png",
+            "description": "Drop the whole pipe below the beam",
+            "cost": "1",
+            "viability": "5",
+            "coordination impact": "4",
+            "scheduleImpact": "1",
+            "disciplinesAffected": [
+              "Architectural",
+              "Structural",
+              "Mechanical",
+              "Plumbing",
+              "Electrical"
+            ]
+          },
+          {
+            "id": "Sewer_cd_11_G",
+            "image": "Sewer_cd_11_G.png",
+            "description": "Through a part cut in the beam",
+            "cost": "4",
+            "viability": "2",
+            "coordination impact": "1",
+            "scheduleImpact": "4",
+            "disciplinesAffected": ["Structural", "Plumbing"]
+          }
+        ],
+        "ca": [
+          {
+            "id": "Sewer_ca_11_A",
+            "image": "Sewer_ca_11_A.png",
+            "description": "Pipe is routed through the beam",
+            "cost": "3",
+            "viability": "4",
+            "coordination impact": "1",
+            "scheduleImpact": "3",
+            "disciplinesAffected": ["Structural", "Plumbing"]
+          },
+          {
+            "id": "Sewer_ca_11_D",
+            "image": "Sewer_ca_11_D.png",
+            "description": "Drop the pipe using a 90 degree bend",
+            "cost": "1",
+            "viability": "2",
+            "coordination impact": "3",
+            "scheduleImpact": "2",
+            "disciplinesAffected": [
+              "Architectural",
+              "Structural",
+              "Mechanical",
+              "Plumbing",
+              "Electrical"
+            ]
+          },
+          {
+            "id": "Sewer_ca_11_E",
+            "image": "Sewer_ca_11_E.png",
+            "description": "Drop the pipe using a 45 degree bend",
+            "cost": "1",
+            "viability": "3",
+            "coordination impact": "3",
+            "scheduleImpact": "2",
+            "disciplinesAffected": [
+              "Architectural",
+              "Structural",
+              "Mechanical",
+              "Plumbing",
+              "Electrical"
+            ]
+          },
+          {
+            "id": "Sewer_ca_11_F",
+            "image": "Sewer_ca_11_F.png",
+            "description": "Drop the whole pipe below the beam",
+            "cost": "1",
+            "viability": "5",
+            "coordination impact": "4",
+            "scheduleImpact": "1",
+            "disciplinesAffected": [
+              "Architectural",
+              "Structural",
+              "Mechanical",
+              "Plumbing",
+              "Electrical"
+            ]
+          },
+          {
+            "id": "Sewer_ca_11_G",
+            "image": "Sewer_ca_11_G.png",
+            "description": "Through a part cut in the beam",
+            "cost": "4",
+            "viability": "2",
+            "coordination impact": "1",
+            "scheduleImpact": "4",
+            "disciplinesAffected": ["Structural", "Plumbing"]
+          }
+        ]
+      }
+    },
+  
+    {
+      "id": "DHW_SSB_00",
+      "image": "DHW_SSB_00.png",
+      "type": "Beam clash",
+      "disciplinesAffected": ["Architectural", "Structural", "Plumbing"],
+      "roomName": "Office",
+      "roomNumber": "550A",
+      "solutions": {
+        "ca": [
+          {
+            "id": "DHW_ca_00_A",
+            "image": "DHW_ca_00_A.png",
+            "description": "Pipe is routed through the beam",
+            "cost": "3",
+            "viability": "4",
+            "coordination impact": "1",
+            "scheduleImpact": "3",
+            "disciplinesAffected": ["Structural", "Plumbing"]
+          },
+          {
+            "id": "DHW_ca_00_B",
+            "image": "DHW_ca_00_B.png",
+            "description": "Pipe offsets under the beam ",
+            "cost": "2",
+            "viability": "2",
+            "coordination impact": "2",
+            "scheduleImpact": "3",
+            "disciplinesAffected": ["Structural", "Plumbing"]
+          },
+          {
+            "id": "DHW_ca_00_C",
+            "image": "DHW_ca_00_C.png",
+            "description": "Pipe is routed through the beam",
+            "cost": "2",
+            "viability": "2",
+            "coordination impact": "2",
+            "scheduleImpact": "3",
+            "disciplinesAffected": ["Structural", "Plumbing"]
+          },
+          {
+            "id": "DHW_ca_00_D",
+            "image": "DHW_ca_00_D.png",
+            "description": "Drop the pipe using a 90 degree bend",
+            "cost": "1",
+            "viability": "4",
+            "coordination impact": "2",
+            "scheduleImpact": "2",
+            "disciplinesAffected": [
+              "Architectural",
+              "Structural",
+              "Mechanical",
+              "Plumbing",
+              "Electrical"
+            ]
+          },
+          {
+            "id": "DHW_ca_00_E",
+            "image": "DHW_ca_00_E.png",
+            "description": "Drop the pipe using a 45 degree bend",
+            "cost": "1",
+            "viability": "5",
+            "coordination impact": "2",
+            "scheduleImpact": "2",
+            "disciplinesAffected": [
+              "Architectural",
+              "Structural",
+              "Mechanical",
+              "Plumbing",
+              "Electrical"
+            ]
+          },
+          {
+            "id": "DHW_ca_00_F",
+            "image": "DHW_ca_00_F.png",
+            "description": "Drop the whole pipe below the beam",
+            "cost": "1",
+            "viability": "5",
+            "coordination impact": "3",
+            "scheduleImpact": "1",
+            "disciplinesAffected": [
+              "Architectural",
+              "Structural",
+              "Mechanical",
+              "Plumbing",
+              "Electrical"
+            ]
+          },
+          {
+            "id": "DHW_ca_00_G",
+            "image": "DHW_ca_00_G.png",
+            "description": "Through a part cut in the beam",
+            "cost": "4",
+            "viability": "2",
+            "coordination impact": "1",
+            "scheduleImpact": "4",
+            "disciplinesAffected": ["Structural", "Plumbing"]
+          }
+        ]
+      }
+    },
+  
+    {
+      "id": "Sprinkler_SSB_01",
+      "image": "Sprinkler_SSB_01.png",
+      "type": "Beam clash",
+      "disciplinesAffected": ["Architectural", "Structural", "Plumbing", "Fire"],
+      "roomName": "Office",
+      "roomNumber": "550A",
+      "solutions": {
+        "ca": [
+          {
+            "id": "Sprinkler_ca_01_A",
+            "image": "Sprinkler_ca_01_A.png",
+            "description": "Pipe is routed through the beam",
+            "cost": "3",
+            "viability": "4",
+            "coordination impact": "1",
+            "scheduleImpact": "3",
+            "disciplinesAffected": ["Structural", "Plumbing", "Fire"]
+          },
+          {
+            "id": "Sprinkler_ca_01_B",
+            "image": "Sprinkler_ca_01_B.png",
+            "description": "Pipe offsets under the beam ",
+            "cost": "2",
+            "viability": "5",
+            "coordination impact": "2",
+            "scheduleImpact": "3",
+            "disciplinesAffected": ["Structural", "Plumbing", "Fire"]
+          },
+          {
+            "id": "Sprinkler_ca_01_C",
+            "image": "Sprinkler_ca_01_C.png",
+            "description": "Pipe is routed through the beam",
+            "cost": "2",
+            "viability": "5",
+            "coordination impact": "2",
+            "scheduleImpact": "3",
+            "disciplinesAffected": ["Structural", "Plumbing", "Fire"]
+          },
+          {
+            "id": "Sprinkler_ca_01_D",
+            "image": "Sprinkler_ca_01_D.png",
+            "description": "Drop the pipe using a 90 degree bend",
+            "cost": "1",
+            "viability": "5",
+            "coordination impact": "2",
+            "scheduleImpact": "2",
+            "disciplinesAffected": [
+              "Architectural",
+              "Structural",
+              "Mechanical",
+              "Plumbing",
+              "Electrical",
+              "Fire"
+            ]
+          },
+          {
+            "id": "Sprinkler_ca_01_E",
+            "image": "Sprinkler_ca_01_E.png",
+            "description": "Drop the pipe using a 45 degree bend",
+            "cost": "1",
+            "viability": "5",
+            "coordination impact": "2",
+            "scheduleImpact": "2",
+            "disciplinesAffected": [
+              "Architectural",
+              "Structural",
+              "Mechanical",
+              "Plumbing",
+              "Electrical",
+              "Fire"
+            ]
+          },
+          {
+            "id": "Sprinkler_ca_01_F",
+            "image": "Sprinkler_ca_01_F.png",
+            "description": "Drop the whole pipe below the beam",
+            "cost": "1",
+            "viability": "5",
+            "coordination impact": "2",
+            "scheduleImpact": "1",
+            "disciplinesAffected": [
+              "Architectural",
+              "Structural",
+              "Mechanical",
+              "Plumbing",
+              "Electrical",
+              "Fire"
+            ]
+          },
+          {
+            "id": "Sprinkler_ca_01_G",
+            "image": "Sprinkler_ca_01_G.png",
+            "description": "Through a part cut in the beam",
+            "cost": "4",
+            "viability": "2",
+            "coordination impact": "1",
+            "scheduleImpact": "4",
+            "disciplinesAffected": ["Structural", "Plumbing", "Fire"]
+          }
+        ]
+      }
+    },
+  
+    {
+      "id": "CHW_SSB_11",
+      "image": "CHW_SSB_11.png",
+      "type": "Beam clash",
+      "disciplinesAffected": ["Architectural", "Structural", "Plumbing"],
+      "roomName": "Office",
+      "roomNumber": "550A",
+      "solutions": {
+        "cd": [
+          {
+            "id": "CHW_cd_11_A",
+            "image": "CHW_cd_11_A.png",
+            "description": "Pipe is routed through the beam",
+            "cost": "3",
+            "viability": "4",
+            "coordination impact": "1",
+            "scheduleImpact": "3",
+            "disciplinesAffected": ["Structural", "Plumbing"]
+          },
+          {
+            "id": "CHW_cd_11_B",
+            "image": "CHW_cd_11_B.png",
+            "description": "Pipe offsets under the beam ",
+            "cost": "2",
+            "viability": "3",
+            "coordination impact": "2",
+            "scheduleImpact": "3",
+            "disciplinesAffected": ["Structural", "Plumbing"]
+          },
+          {
+            "id": "CHW_cd_11_C",
+            "image": "CHW_cd_11_C.png",
+            "description": "Pipe is routed through the beam",
+            "cost": "2",
+            "viability": "4",
+            "coordination impact": "2",
+            "scheduleImpact": "3",
+            "disciplinesAffected": ["Structural", "Plumbing"]
+          },
+          {
+            "id": "CHW_cd_11_D",
+            "image": "CHW_cd_11_D.png",
+            "description": "Drop the pipe using a 90 degree bend",
+            "cost": "1",
+            "viability": "4",
+            "coordination impact": "3",
+            "scheduleImpact": "2",
+            "disciplinesAffected": [
+              "Architectural",
+              "Structural",
+              "Mechanical",
+              "Plumbing",
+              "Electrical"
+            ]
+          },
+          {
+            "id": "CHW_cd_11_E",
+            "image": "CHW_cd_11_E.png",
+            "description": "Drop the pipe using a 45 degree bend",
+            "cost": "1",
+            "viability": "4",
+            "coordination impact": "3",
+            "scheduleImpact": "2",
+            "disciplinesAffected": [
+              "Architectural",
+              "Structural",
+              "Mechanical",
+              "Plumbing",
+              "Electrical"
+            ]
+          },
+          {
+            "id": "CHW_cd_11_F",
+            "image": "CHW_cd_11_F.png",
+            "description": "Drop the whole pipe below the beam",
+            "cost": "1",
+            "viability": "5",
+            "coordination impact": "3",
+            "scheduleImpact": "1",
+            "disciplinesAffected": [
+              "Architectural",
+              "Structural",
+              "Mechanical",
+              "Plumbing",
+              "Electrical"
+            ]
+          },
+          {
+            "id": "CHW_cd_11_G",
+            "image": "CHW_cd_11_G.png",
+            "description": "Through a part cut in the beam",
+            "cost": "4",
+            "viability": "2",
+            "coordination impact": "1",
+            "scheduleImpact": "4",
+            "disciplinesAffected": ["Structural", "Plumbing"]
+          }
+        ],
+  
+        "ca": [
+          {
+            "id": "CHW_ca_11_A",
+            "image": "CHW_ca_11_A.png",
+            "description": "Pipe is routed through the beam",
+            "cost": "3",
+            "viability": "4",
+            "coordination impact": "1",
+            "scheduleImpact": "3",
+            "disciplinesAffected": ["Structural", "Plumbing"]
+          },
+          {
+            "id": "CHW_ca_11_B",
+            "image": "CHW_ca_11_B.png",
+            "description": "Pipe offsets under the beam ",
+            "cost": "2",
+            "viability": "3",
+            "coordination impact": "2",
+            "scheduleImpact": "3",
+            "disciplinesAffected": ["Structural", "Plumbing"]
+          },
+          {
+            "id": "CHW_ca_11_C",
+            "image": "CHW_ca_11_C.png",
+            "description": "Pipe is routed through the beam",
+            "cost": "2",
+            "viability": "4",
+            "coordination impact": "2",
+            "scheduleImpact": "3",
+            "disciplinesAffected": ["Structural", "Plumbing"]
+          },
+          {
+            "id": "CHW_ca_11_D",
+            "image": "CHW_ca_11_D.png",
+            "description": "Drop the pipe using a 90 degree bend",
+            "cost": "1",
+            "viability": "4",
+            "coordination impact": "3",
+            "scheduleImpact": "2",
+            "disciplinesAffected": [
+              "Architectural",
+              "Structural",
+              "Mechanical",
+              "Plumbing",
+              "Electrical"
+            ]
+          },
+          {
+            "id": "CHW_ca_11_E",
+            "image": "CHW_ca_11_E.png",
+            "description": "Drop the pipe using a 45 degree bend",
+            "cost": "1",
+            "viability": "5",
+            "coordination impact": "3",
+            "scheduleImpact": "2",
+            "disciplinesAffected": [
+              "Architectural",
+              "Structural",
+              "Mechanical",
+              "Plumbing",
+              "Electrical"
+            ]
+          },
+          {
+            "id": "CHW_ca_11_F",
+            "image": "CHW_ca_11_F.png",
+            "description": "Drop the whole pipe below the beam",
+            "cost": "1",
+            "viability": "5",
+            "coordination impact": "3",
+            "scheduleImpact": "1",
+            "disciplinesAffected": [
+              "Architectural",
+              "Structural",
+              "Mechanical",
+              "Plumbing",
+              "Electrical"
+            ]
+          },
+          {
+            "id": "CHW_ca_11_G",
+            "image": "CHW_ca_11_G.png",
+            "description": "Through a part cut in the beam",
+            "cost": "4",
+            "viability": "2",
+            "coordination impact": "1",
+            "scheduleImpact": "4",
+            "disciplinesAffected": ["Structural", "Plumbing"]
+          }
+        ]
+      }
+    }
+  ]

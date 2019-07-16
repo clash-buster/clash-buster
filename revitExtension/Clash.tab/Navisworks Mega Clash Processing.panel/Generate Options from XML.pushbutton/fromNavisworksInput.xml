@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<exchange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" units="m" filename="" filepath="">
+  <batchtest name="Report" internal_name="Report" units="m">
+    <clashtests>
+      <clashtest name="Test 1" test_type="hard" status="ok" tolerance="0.001" merge_composites="1">
+        <linkage mode="none"/>
+        <rules/>
+        <summary total="6" new="0" active="6" reviewed="0" approved="0" resolved="0">
+          <testtype>Hard</testtype>
+          <teststatus>OK</teststatus>
+        </summary>
+        <clashresults>
+          <clashresult name="Clash1" guid="2d41dd07-97fe-4afe-aecb-2381dd65e7ba" href="HACKATHON_files\cd000001.jpg" status="active" distance="-0.082">
+            <description>Hard</description>
+            <resultstatus>Active</resultstatus>
+            <clashpoint>
+              <pos3f x="-14.725" y="8.489" z="2.843"/>
+            </clashpoint>
+            <createddate>
+              <date year="2019" month="7" day="16" hour="0" minute="12" second="43"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>653435</value>
+                </objectattribute>
+                <layer>F2</layer>
+                <smarttags>
+                  <smarttag>
+                    <name>Item Name</name>
+                    <value>Steel ASTM A992</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Item Type</name>
+                    <value>Solid</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>955633</value>
+                </objectattribute>
+                <layer>F1</layer>
+                <smarttags>
+                  <smarttag>
+                    <name>Item Name</name>
+                    <value>Polyvinyl Chloride, Rigid</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Item Type</name>
+                    <value>Line</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Clash2" guid="66521978-326c-4f9e-a057-febf0fd0bb48" href="HACKATHON_files\cd000002.jpg" status="active" distance="-0.072">
+            <description>Hard</description>
+            <resultstatus>Active</resultstatus>
+            <clashpoint>
+              <pos3f x="-14.718" y="6.449" z="2.833"/>
+            </clashpoint>
+            <createddate>
+              <date year="2019" month="7" day="16" hour="0" minute="12" second="43"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>653435</value>
+                </objectattribute>
+                <layer>F2</layer>
+                <smarttags>
+                  <smarttag>
+                    <name>Item Name</name>
+                    <value>Steel ASTM A992</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Item Type</name>
+                    <value>Solid</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>955766</value>
+                </objectattribute>
+                <layer>&lt;No level&gt;</layer>
+                <smarttags>
+                  <smarttag>
+                    <name>Item Name</name>
+                    <value>Pipe Insulation</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Item Type</name>
+                    <value>Solid</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Clash3" guid="e1ac9fa4-fb40-4a0a-9f47-6d27ad5851d6" href="HACKATHON_files\cd000003.jpg" status="active" distance="-0.059">
+            <description>Hard</description>
+            <resultstatus>Active</resultstatus>
+            <clashpoint>
+              <pos3f x="-14.725" y="11.065" z="2.819"/>
+            </clashpoint>
+            <createddate>
+              <date year="2019" month="7" day="16" hour="0" minute="12" second="43"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>653435</value>
+                </objectattribute>
+                <layer>F2</layer>
+                <smarttags>
+                  <smarttag>
+                    <name>Item Name</name>
+                    <value>Steel ASTM A992</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Item Type</name>
+                    <value>Solid</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>955703</value>
+                </objectattribute>
+                <layer>&lt;No level&gt;</layer>
+                <smarttags>
+                  <smarttag>
+                    <name>Item Name</name>
+                    <value>Pipe Insulation</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Item Type</name>
+                    <value>Solid</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Clash6" guid="5293b329-3073-449c-a44b-1201092e5406" href="HACKATHON_files\cd000004.jpg" status="active" distance="-0.059">
+            <description>Hard</description>
+            <resultstatus>Active</resultstatus>
+            <clashpoint>
+              <pos3f x="-14.718" y="10.740" z="2.895"/>
+            </clashpoint>
+            <createddate>
+              <date year="2019" month="7" day="16" hour="0" minute="12" second="43"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>653435</value>
+                </objectattribute>
+                <layer>F2</layer>
+                <smarttags>
+                  <smarttag>
+                    <name>Item Name</name>
+                    <value>Steel ASTM A992</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Item Type</name>
+                    <value>Solid</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>955727</value>
+                </objectattribute>
+                <layer>F1</layer>
+                <smarttags>
+                  <smarttag>
+                    <name>Item Name</name>
+                    <value>Copper</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Item Type</name>
+                    <value>Line</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Clash4" guid="913d130c-e44c-49c3-887d-d66ba17a2d4d" href="HACKATHON_files\cd000005.jpg" status="active" distance="-0.047">
+            <description>Hard</description>
+            <resultstatus>Active</resultstatus>
+            <clashpoint>
+              <pos3f x="-14.718" y="6.449" z="2.808"/>
+            </clashpoint>
+            <createddate>
+              <date year="2019" month="7" day="16" hour="0" minute="12" second="43"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>653435</value>
+                </objectattribute>
+                <layer>F2</layer>
+                <smarttags>
+                  <smarttag>
+                    <name>Item Name</name>
+                    <value>Steel ASTM A992</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Item Type</name>
+                    <value>Solid</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>955764</value>
+                </objectattribute>
+                <layer>F1</layer>
+                <smarttags>
+                  <smarttag>
+                    <name>Item Name</name>
+                    <value>Copper</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Item Type</name>
+                    <value>Line</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Clash5" guid="59de4fe6-f4f8-46b6-a350-b849c2bee727" href="HACKATHON_files\cd000006.jpg" status="active" distance="-0.035">
+            <description>Hard</description>
+            <resultstatus>Active</resultstatus>
+            <clashpoint>
+              <pos3f x="-14.725" y="11.061" z="2.795"/>
+            </clashpoint>
+            <createddate>
+              <date year="2019" month="7" day="16" hour="0" minute="12" second="43"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>653435</value>
+                </objectattribute>
+                <layer>F2</layer>
+                <smarttags>
+                  <smarttag>
+                    <name>Item Name</name>
+                    <value>Steel ASTM A992</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Item Type</name>
+                    <value>Solid</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>955676</value>
+                </objectattribute>
+                <layer>F1</layer>
+                <smarttags>
+                  <smarttag>
+                    <name>Item Name</name>
+                    <value>Copper</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Item Type</name>
+                    <value>Line</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+        </clashresults>
+      </clashtest>
+    </clashtests>
+    <selectionsets/>
+  </batchtest>
+</exchange>
