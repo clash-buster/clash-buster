@@ -128,6 +128,8 @@ export default {
 h2 {
   color: #00acc1;
   font-size: 20pt;
+  font-family: "Fjalla One", sans-serif;
+  font-weight: normal;
   margin-bottom: -5px;
   text-transform: uppercase;
 }

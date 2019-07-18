@@ -40,3 +40,11 @@ export default {
   }
 };
 </script>
+
+<style>
+h1 {
+  font-family: "Fjalla One", sans-serif;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+</style>

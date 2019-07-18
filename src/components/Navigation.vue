@@ -1,8 +1,8 @@
 <template>
   <v-toolbar app dense>
-    <v-toolbar-side-icon>
-      <v-img :src="require('../assets/clash.png')" contain></v-img>
-    </v-toolbar-side-icon>
+    <!-- <v-toolbar-side-icon>
+      <v-img :src="require('../assets/clashLogoRed.svg')" contain></v-img>
+    </v-toolbar-side-icon>-->
     <v-toolbar-title class="title">
       <a href="/">CLASH ></a>
     </v-toolbar-title>
