@@ -6,7 +6,11 @@ Frontend UI for DBEI Hackathon 2019. Completed in 1-1/2 days, this application p
 
 ## Developer Documentation
 
-### Building
+### Revit Extension
+
+-
+
+### Frontend Webapp
 
 Fork/clone this repository locally. After cloning is completed, you can install dependencies and start a development server by running the following commands in the root directory of this repository. Once the development server is running, view localhost:8080 using Chrome and Vue.js Dev Tools.
 
